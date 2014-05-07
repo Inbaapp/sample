@@ -1,0 +1,118 @@
+
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+
+@media only screen and (min-width: 64.063em) and (max-width: 90em) 
+{ 
+
+	 #login-page
+  	{
+	  background:url(../images/loginfull.jpg) no-repeat;
+	  background-size:100%;
+	  overflow:hidden;
+ 	 }
+
+
+	 
+} 
+
+
+/*// Small screens */
+@media only screen {
+	
+	
+	
+	
+	
+	
+	
+}  /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+ @media only screen and (max-width: 40em) {
+	 
+.ui-content { padding:0.5em; }	 
+.spinContainer { width:70%;	position:absolute; 	left:15%; 	top:0em; }
+.datalist-inner .profile-image { 	width:6em; height:6em;	float:left;	 }
+.datalist-inner .datail p { font-size:0.9em;  }
+.panel-photoBox
+{
+	width:4em;
+	height:4em;
+	 
+} 
+
+#login-page
+{
+	  background:url(../images/loginbg360.jpg) no-repeat;
+	  background-size:100%;
+	  overflow:hidden;
+}
+
+.login-uicontent {
+padding-top: 9.5em;
+}
+ 
+
+/* min-width 641px, medium screens */
+ @media only screen and (min-width: 40.063em) {
+	 
+  #login-page
+  {
+	  background:url(../images/loginbg768.jpg) no-repeat;
+	  background-size:100%;
+	  overflow:hidden;
+  }
+	 
+	 
+}
+
+
+ /* min-width 641px and max-width 1024px,  */
+ @media only screen and (min-width: 40.063em) and (max-width: 64em) {
+	 
+ .datalist-inner .profile-image { 	width:6em; height:6em;	float:left;	 }
+ 
+  #login-page
+  {
+	  background:url(../images/loginbg768.jpg) no-repeat;
+	  background-size:100%;
+	  overflow:hidden;
+  }
+ 
+ 
+}
+
+
+
+
+
+
+
+
+
+/* Max-width 360px */
+ @media only screen and (max-width: 22.5em) {
+	 
+  #login-page
+  {
+	  background:url(../images/loginbg360.jpg) no-repeat;
+	  background-size:100%;
+	  overflow:hidden;
+	    
+  }
+	 
+} 
+
+ /* Max-width 320px */
+ @media only screen and (max-width: 20em) {
+	 
+ #login-page
+ {
+	 background:url(../images/loginbg360.jpg) no-repeat;
+	 background-size:100%;
+	 overflow:hidden; 
+ }
+}
+
+
+
+
+

@@ -1,0 +1,772 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<title>CBS Mobile APP</title>
+<link rel="stylesheet" type="text/css" href="font/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="style/jquery.mobile.structure-1.4.2.css"> 
+<link rel="stylesheet" type="text/css" href="style/reset.css">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+<link rel="stylesheet" type="text/css" href="style/media.css">
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.4.2.min.js"></script>
+<script src="js/script.js"></script>
+
+  
+  
+
+
+<!--<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'> -->
+<!--<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.css" />
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/media.css">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script> -->
+</head>
+<body>
+<div data-role="page" id="MainPage">
+
+<div data-role="panel" id="lpanel" data-position="left" data-display="push" data-theme="cbsapp">
+    
+     
+      <div class="ui-panel-inner"> 
+                         <section class="panel-header"> 
+                         <p>AgarwalMatrimony</p>
+                         <a href="#" class="ui-btn-right refresh-panel">#</a>
+                         </section>
+                         
+                         <section class="Panel-photo clearfix">
+                         
+                         	<div class="panel-photoBox">
+                            <a href="#"><img src="images/girl1.jpg"></a>
+                            </div> <!-- -->
+                            
+                            <div class="panel-user-name">
+                            <a href="#" class="name">Chandresh</a>
+                            <a href="#" class="id">AGR100101</a>
+                            <a href="#" class="addphoto">Add Photo</a>
+                            </div>                          
+                        </section>
+                        
+                        
+                        
+ <div class="menu relative">
+                        
+ <div data-role="collapsible" data-inset="false" data-iconpos="left" data-theme="cbsapp">
+    <h3 class="mp">Matching Profiles</h3>
+     <ul data-role="listview" data-count-theme="b" data-inset="true"  data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+   
+</div><!-- /collapsible -->
+
+<div data-role="collapsible" data-inset="false" data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="inb">Inbox</h3>
+      
+    
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+    
+    
+</div><!-- /collapsible -->
+<div data-role="collapsible" data-inset="false"  data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="seb">Sentbox</h3>
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+</div><!-- /collapsible -->
+
+
+
+<div data-role="collapsible" data-inset="false"  data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="mm">Matrimony Messenger</h3>
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+</div><!-- /collapsible -->
+
+
+<div data-role="collapsible" data-inset="false"  data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="d7">Daily 7</h3>
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+</div><!-- /collapsible -->
+
+
+<div data-role="collapsible" data-inset="false"  data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="sh">Share</h3>
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+</div><!-- /collapsible -->
+
+
+<div data-role="collapsible" data-inset="false"  data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="set">Setting</h3>
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+</div><!-- /collapsible -->
+
+
+<div data-role="collapsible" data-inset="false"  data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="seach">Search</h3>
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+</div><!-- /collapsible -->
+
+
+<div data-role="collapsible" data-inset="false"  data-iconpos="left" data-icon="custom" data-theme="cbsapp">
+    <h3 class="ss">Save search</h3>
+    <ul data-role="listview" data-count-theme="b" data-inset="true" data-icon="false" class="menulist-ul">
+        <li><a href="#">Inbox <span class="ui-li-count">12</span></a></li>
+        <li><a href="#">Outbox <span class="ui-li-count">0</span></a></li>
+        <li><a href="#">Drafts <span class="ui-li-count">4</span></a></li>
+        <li><a href="#">Sent <span class="ui-li-count">328</span></a></li>
+        <li><a href="#">Trash <span class="ui-li-count">62</span></a></li>
+	</ul>
+</div><!-- /collapsible -->
+
+
+
+
+<section class="AddContainer">
+
+		<a href="#" class="scrollto">#</a>
+
+
+	<div class="top-Box1">   
+    
+    	<a href="#">Upgrade to Paid Membership</a>
+    
+    </div>
+    
+    
+    <div class="top-Box2">   
+    
+    	<p><span class="oneem">Double Bonanza Offer</span>
+		Upto Rs.<span class="oneem">1250</span>/- Off + <span class="oneem">FREE</span> Profile 
+		Highlighter.</p>
+    
+    </div>
+
+
+
+
+</section>
+
+
+ 
+
+</div> <!--menu -->                      
+                         
+                         
+             
+      </div> <!--ui-panel-inner -->
+ </div>
+ 
+ 
+ 
+ <div data-role="panel" id="rpanel" data-position="right" data-display="push" data-theme="cbsapp-right"> 	
+   
+  
+   
+   <div class="ui-panel-inner">
+            
+            <section class="panel-header"> 
+                 <p>Refine Search</p>          
+            </section>
+            
+      <div id="wapper-container">
+            
+            <section class="Rpanel-header clearfix"> 
+                 <a href="#" class="r-refresh">#</a>          
+                  <a href="#" class="r-search">#</a>  
+            </section>
+            
+         <div class="overlay">
+            
+         <section class="RangeSlider relative clearfix">
+                <div class="ui-field-contain">
+                    <div data-role="rangeslider">
+                        <label for="range-7a">Age:</label>
+                        <input name="range-7a" id="range-7a" min="0" max="100" value="0" type="range" />
+                        <label for="range-7b">to</label>
+                        <input name="range-7b" id="range-7b" min="0" max="100" value="100" type="range" />
+                    </div>
+                </div>
+         </section>  
+         
+         
+         <section class="RangeSlider relative clearfix">
+                <div class="ui-field-contain">
+                    <div data-role="rangeslider">
+                        <label for="range-7a">Height:</label>
+                        <input name="range-7a" id="range-7a" min="0" max="100" value="0" type="range" />
+                        <label for="range-7b">to</label>
+                        <input name="range-7b" id="range-7b" min="0" max="100" value="100" type="range" />
+                    </div>
+                </div>
+         </section>  
+           
+            
+           
+         <div data-role="collapsible-set" class="rpanel-inner" data-inset="false" >
+         
+         
+         
+         
+         
+         
+             
+       <div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="c">
+        <h3><a href="#">Marital Status:<span class="subtxt">Unmarried</span></a></h3> 
+        
+            <form>
+                <fieldset data-role="controlgroup" data-theme="formms" data-mini="true">                
+                <input type="checkbox" name="checkbox-v-2a" id="checkbox-v-2a" data-theme="ch-box">
+                <label for="checkbox-v-2a">One</label>
+                <input type="checkbox" name="checkbox-v-2b" id="checkbox-v-2b" data-theme="ch-box">
+                <label for="checkbox-v-2b">Two</label>
+                <input type="checkbox" name="checkbox-v-2c" id="checkbox-v-2c" data-theme="ch-box">
+                <label for="checkbox-v-2c">Three</label>
+                </fieldset>
+            </form> 
+        </div>
+               
+             <div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="c">
+               <h3><a href="#search2">Religion:<span class="subtxt">Any</span></a></h3>
+               <p>Content</p>
+             </div>
+             
+             <div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="c">
+               <h3><a href="#search3">Subcaste:<span class="subtxt">Bisa</span></a></h3>
+               <p>Content</p>
+             </div>
+             
+          <div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="c" class="c-destory">
+            <h3><a class="sh" href="#search1">Mother Tongue:<span class="subtxt">Hindi</span></a></h3>
+            <p>Content</p>
+         </div>
+             
+              <div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="c">
+               <h3><a href="#search">Country living in:<span class="subtxt">India</span></a></h3>
+               <p>Content</p>
+             </div>
+             
+             <div data-role="collapsible" data-collapsed="true" data-iconpos="right" data-theme="c">
+               <h3><a href="#search3">Education:<span class="subtxt">Any</span></a></h3>
+               <p>Content</p>
+             </div>
+             
+          
+           </div>
+           
+                     
+     
+	 </div> <!--Overlay -->
+     
+          <section class="AddContainer clearfix rpanel-bottombox">
+          
+          <a href="#" class="scrollto ui-link">#</a>
+          
+          
+          <div class="savesearch clearfix">
+          		<a href="#" class="savesearch-link">savesearch</a>
+          
+          		<a href="#" class="mysavedsearch">mysavedsearch</a>
+          
+          </div>
+          
+          
+          
+          </section>
+     
+     </div> <!--wapper-container -->
+     
+     
+     
+     
+      <div class="box none relative" id="search1">                   
+           		
+          <form class="ui-filterable">
+          <input id="filterBasic-input" data-type="search" placeholder="Mother Tongue">
+          </form>
+          <ul data-role="listview" data-filter="true" data-input="#filterBasic-input" data-theme="language">
+          <li>Acura</li>
+          <li>Audi</li>
+          <li>BMW</li>
+          <li>Cadillac</li>
+          <li>Ferrari</li>
+          </ul>      
+                
+                
+                                
+                <a href="#" id="close" class="fliter-close">close</a>           
+      </div> <!--search -->
+     
+     
+     
+     
+     
+     
+     </div> 
+        
+</div><!-- /panel -->
+
+
+ <!--<div data-role="panel" id="search" data-position="right" data-display="push" data-theme="cbsapp-right"> 
+
+ <div class="ui-panel-inner">
+		<a href="#rpanel">Home Panel</a>
+ </div> 
+        
+</div><!-- /panel --> 
+
+
+
+
+	<div data-role="header" class="Header" data-theme="cbsapp">
+    		 
+    <a href="#lpanel" class="panel-left ui-btn-left">Leftpanel</a>
+    
+    
+    <div class="ui-btn-inline spinContainer">
+              <form>              
+              <input data-iconpos="right" id="filterTable-input" data-type="search" placeholder="Matching Profiles"  
+              class="ui-icon-carat-d ui-input-search">
+              </form>
+              <ul data-icon="false" data-role="listview" data-input="#filterTable-input" data-filter="true" 			              data-filter-reveal="true" data-filter-placeholder="Matching Profiles" data-inset="true" id="listname">
+              <li><a href="#" class="pepole">Matching Profiles</a></li>
+              <li><a href="#" class="star">New Matching Profiles</a></li>
+              <li><a href="#" class="searchid">Search by ID</a></li>
+              <li><a href="#" class="shortlist">Shortlisted Profiles</a></li>
+              <li><a href="#" class="daily7">Daily7</a></li>             
+              </ul>    
+    </div>
+    
+     <a href="#rpanel" class="panel-right ui-btn-right">search</a>
+    
+    
+	</div><!-- /header -->
+    
+    
+    
+    
+    
+    
+
+	<div role="main" class="ui-content">
+    
+    
+    		<section data-role="controlgroup" data-theme="cbsapp" >            
+               	<div class="datalist-inner clearfix"> 
+                
+                	<div class="profile-image">
+                    <a href="#"><img src="images/girl.jpg" alt="a"></a>
+                    </div> <!--profile-image -->	
+                    
+                    <div class="datail">
+                    <h1><a href="#">AGR100101</a></h1>
+                    <h1 class="p-name"><a href="#">Reena Agarwal</a> </h1>
+                    
+                    <p>23 Yrs, 5Ft / 159 Cms 
+					  Hindu : Bisa, Pune, Maharashtra, 
+                      India, B.E, Software Professional.</p>
+                    </div>
+                </div>
+                
+                <div class="bottom-menu clearfix">
+                
+                	<div class="leftbox-p">
+                    <a href="#" data-ajax="false" data-transition="flip" class="vp-shortlist">Shortlist</a>
+                    </div>
+                    
+                    <div class="rightbox-p">
+                    <a href="#" data-ajax="false" data-transition="flip" class="vp-sendinterset">Send Interest</a>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            
+            
+            <section data-role="controlgroup" data-theme="cbsapp" >            
+               	<div class="datalist-inner clearfix"> 
+                
+                	<div class="profile-image">
+                    <a href="#"><img src="images/girl2.jpg" alt="a"></a>
+                    </div> <!--profile-image -->	
+                    
+                    <div class="datail">
+                    <h1><a href="#">AGR100101</a></h1>
+                    <h1 class="p-name"><a href="#">Reena Agarwal</a> </h1>
+                    
+                    <p>23 Yrs, 5Ft / 159 Cms 
+					  Hindu : Bisa, Pune, Maharashtra, 
+                      India, B.E, Software Professional.</p>
+                    </div>
+                </div>
+                
+                <div class="bottom-menu clearfix">
+                
+                	<div class="leftbox-p">
+                    <a href="#" data-ajax="false" data-transition="flip" class="vp-shortlist-active">Shortlist</a>
+                    </div>
+                    
+                    <div class="rightbox-p">
+                    <a href="#" data-ajax="false" data-transition="flip" class="vp-sendmail">Send Interest</a>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+             <section data-role="controlgroup" data-theme="cbsapp" >            
+               	<div class="datalist-inner clearfix relative"> 
+                
+                	<div class="profile-image">
+                    <a href="#"><img src="images/girl3.jpg" alt="a"></a>
+                    </div> <!--profile-image -->	
+                    
+                    <div class="datail">
+                    <h1><a href="#">AGR100101</a></h1>
+                    <h1 class="p-name"><a href="#">Reena Agarwal</a> </h1>
+                    
+                    <p>23 Yrs, 5Ft / 159 Cms 
+					  Hindu : Bisa, Pune, Maharashtra, 
+                      India, B.E, Software Professional.</p>
+                    </div>
+                    
+                    <div class="tagging gold">
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="bottom-menu clearfix">
+                
+                	<div class="leftbox-p">
+                    <a href="#" data-ajax="false" data-transition="flip" class="vp-shortlist-active">Shortlist</a>
+                    </div>
+                    
+                    <div class="rightbox-p">
+                    <a href="#" data-ajax="false" data-transition="flip" class="vp-sendmail">Send Interest</a>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+            <section data-role="controlgroup" data-theme="cbsapp" >            
+               	<div class="datalist-inner clearfix relative"> 
+                
+                	<div class="profile-image">
+                    <a href="#"><img src="images/girl3.jpg" alt="a"></a>
+                    </div> <!--profile-image -->	
+                    
+                    <div class="datail">
+                    <h1><a href="#">AGR100101</a></h1>
+                    <h1 class="p-name"><a href="#">Reena Agarwal</a> </h1>
+                    
+                    <p>23 Yrs, 5Ft / 159 Cms 
+					  Hindu : Bisa, Pune, Maharashtra, 
+                      India, B.E, Software Professional.</p>
+                    </div>
+                    
+                    <div class="tagging gold">
+                    </div>
+                    
+                    
+                </div>
+                
+             <div class="bottom-menu clearfix">
+                
+                	<div class="leftbox-p">
+          <a href="#popupPadded"  data-position-to="window" data-transition="flip" class="vp-shortlist-active">Shortlist</a>
+                    </div>
+                    
+                    <div class="rightbox-p">
+                    <a href="#"  data-transition="flip" class="vp-sendmail">Send Interest</a>
+                    </div>
+                </div>
+            </section>
+            
+            
+            
+            
+<a data-position-to="window" href="#popupCloseRight" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Right close button</a>
+
+
+<a data-position-to="window" href="#popupCloseRight3" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Right close button</a>
+
+
+<a data-position-to="window" href="#popupCloseRight4" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Right close button4</a>
+ 
+
+<div data-role="popup" id="popupCloseRight" class="ui-content-pop" style="max-width:280px" data-theme="popcbs">
+    
+    <a href="#" class="heart">heart</a>
+    
+    <a href="#" data-rel="back" class="closebtn ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    
+    <div class="PopupTop">
+    
+    		<div class="ImageBox clearfix">
+            	
+                <div class="image">
+                <img src="images/figure.jpg"  alt="figure">
+                </div>
+                
+               <div class="infotext">
+                Your interest has been
+				successfully sent.
+                </div> <!--infotext -->
+            
+            </div>
+            
+            
+            <div class="updatebox clearfix">
+            
+            	<div class="updatetxt">
+                <p>Become a paid member and
+				Connect further with Her</p>
+                </div> <!--updatetxt -->
+                
+                <div class="updatebtn">
+                
+                <a href="#" class="up-btn">Upgrade Now</a>
+                
+                </div> <!--updatetxt -->
+            
+            
+            </div> <!-- updatebox-->
+           
+    </div> <!--PopupTop -->
+     <div class="updatebox-box">
+            <img src="images/popup-shadow.png"  alt="aa">
+     </div>
+    
+    
+    <div class="popupbottom">
+    
+    	<p>Benefits of Premium Membership:</p>        
+        <ul>
+            <li>Access 100% verified mobile numbers</li>
+            <li>Send personalised messages</li>
+            <li>Chat online with members</li>
+            <li>Premium membership tag added to profile</li>
+		</ul>
+        
+        
+    </div> <!--popupbottom -->
+        
+</div>
+
+
+
+<a data-position-to="window" href="#popupCloseRight2" data-rel="popup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline">Right close button2</a>
+ 
+
+<div data-role="popup" id="popupCloseRight2" class="ui-content-pop" style="max-width:280px" data-theme="popcbs">
+    
+    <a href="#" class="heart">heart</a>
+    
+    <a href="#" data-rel="back" class="closebtn ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    
+    <div class="PopupTop model2pop-parent">
+    
+    		<div class="ImageBox clearfix">
+            	
+                <div class="image">
+                <img src="images/figure.jpg"  alt="figure">
+                </div>
+                
+               <div class="infotext">
+                Your interest has been
+				successfully sent.
+                
+                     <div class="updatebtn model2pop">                    
+                    	<a href="#" class="up-btn">Upgrade Now</a>                    
+                    </div> <!--updatetxt -->
+                
+                </div> <!--infotext -->
+            
+            </div>
+            
+            
+             
+           
+    		</div> <!--PopupTop -->
+     
+    
+    
+   
+   
+   
+   
+   <div data-role="popup" id="popupCloseRight3" class="ui-content-pop" style="max-width:280px" data-theme="popcbs">
+    
+    <a href="#" class="heart">heart</a>
+    
+    <a href="#" data-rel="back" class="closebtn ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    
+    <div class="PopupTop">
+    
+    		<div class="ImageBox clearfix">
+            	
+                <div class="image">
+                <img src="images/figure.jpg"  alt="figure">
+                </div>
+                
+               <div class="infotext">
+                Your interest has been
+				successfully sent.
+                
+                 <div class="updatebtn model2pop">
+                
+                	<a href="#" class="up-btn">Upgrade Now</a>
+                
+                </div> <!--updatetxt -->
+                
+                </div> <!--infotext -->
+            
+            </div>
+            
+            
+           
+           
+    </div> <!--PopupTop -->
+    <div class="updatebox-box">
+            <img src="images/popup-shadow.png"  alt="aa">
+     </div>
+     
+    
+    
+    <div class="popupbottom">
+    
+    	<p>Benefits of Premium Membership:</p>        
+        <ul>
+            <li>Access 100% verified mobile numbers</li>
+            <li>Send personalised messages</li>
+            <li>Chat online with members</li>
+            <li>Premium membership tag added to profile</li>
+		</ul>
+        
+        
+    </div> <!--popupbottom -->
+        
+</div>
+   
+   
+   
+   
+   
+   <div data-role="popup" id="popupCloseRight4" class="ui-content-pop model4" style="min-width:279px;max-width:280px" data-theme="popcbs">
+    
+    
+    
+    <a href="#" data-rel="back" class="closebtn ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    
+    
+    <div class="mode4-inner">
+        <p>Send Interest To</p>
+        <p>Reena Agarwal (AGR100101)</p>
+    </div>
+    
+    <div class="model4-center">    
+    	<a href="#" class="send-i-btn">Send Interest</a>    
+    </div>
+    
+    <div class="mode4-inner modelinner relative">
+   		 <p>Send Interest To</p>
+         <p>Reena Agarwal (AGR100101)</p>
+         
+         <textarea class="textarea-mode4">
+         
+         
+         </textarea>
+         
+         <span class="model4-or">or</span>
+         
+    </div>
+    
+    
+     <div class="model4-center model4-bottom">    
+    	<a href="#" class="send-m-btn">Send Mail</a>    
+    </div>
+    
+     
+    
+    
+    
+        
+</div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ 
+ 
+            
+     
+    
+	 
+	</div><!-- /content -->
+  
+  </div><!-- /page --> 
+
+</body>
+</html>
+
+
+
+
+
